@@ -190,3 +190,8 @@ Plugins: Flocker, Ceph, ...
 ## Multi-cloud deployments
 
 For example, you can have any app call any db on any cloud. (How?)
+
+## Links
+
+- https://github.com/javaee-samples/docker-java/blob/master/chapters/
+- https://github.com/javaee-samples/docker-java/blob/master/chapters/docker-commands.adoc
