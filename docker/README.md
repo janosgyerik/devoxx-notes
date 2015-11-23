@@ -49,22 +49,22 @@ Misc:
 
 "docker containers are like diapers: you shit in them and throw away"
 
-eval "$(docker-machine env devoxx)"
+    eval "$(docker-machine env devoxx)"
 
-docker run -it ubuntu sh
+    docker run -it ubuntu sh
 
-docker run -it -p 8080:8080 jboss/wildfly
+    docker run -it -p 8080:8080 jboss/wildfly
 
-curl $(docker-machine ip devoxx):8080
+    curl $(docker-machine ip devoxx):8080
 
-docker run
---name mysqldb
--e MYSQL_USER=mysql
--e MYSQL_PASSWORD=..
--e MYSQL_DATABASE=..
--e MYSQL_ROOT_PASSWORD=..
--d
-mysql
+    docker run
+    --name mysqldb
+    -e MYSQL_USER=mysql
+    -e MYSQL_PASSWORD=..
+    -e MYSQL_DATABASE=..
+    -e MYSQL_ROOT_PASSWORD=..
+    -d
+    mysql
 
 Dockerfile -- default filename for configuring a Docker image (in a dir)
 
